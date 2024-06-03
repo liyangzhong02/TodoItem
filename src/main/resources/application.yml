@@ -1,0 +1,17 @@
+mybatis-plus:
+  configuration:
+    # MyBatis ??
+    map-underscore-to-camel-case: true
+  global-config:
+    # ????
+    db-config:
+      # ?????
+      id-type: auto
+server:
+  port: 8081
+spring:
+  datasource:
+    username: "root"
+    password: "root"
+    url: jdbc:mysql://localhost:3306/webdesign?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
